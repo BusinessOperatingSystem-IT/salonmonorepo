@@ -17,8 +17,8 @@ const headerLinks = [{
  const Header = () => {
     return (
     <header className="flex flex-col justify-between m-auto md:flex-row px-4 py-4">
-        <Image className="flex-row m-auto md:m-0 my-4" src={Logo} alt="A black logo that sayify-cens Next.js" height={80} width={100}/>
-        <nav className="flex-row m-auto md:m-0 my-4 space-x-4 font-semibold text-lg">
+        <Image className="flex-row m-auto md:m-0 py-4" src={Logo} alt="A black logo that sayify-cens Next.js" height={80} width={100}/>
+        <nav className="flex-row m-auto md:m-0 py-4 space-x-4 font-semibold text-lg">
            {headerLinks.map((link)=>(
             <Link key={link.id} href={link.href}>{link.name}</Link>
            ))} 
