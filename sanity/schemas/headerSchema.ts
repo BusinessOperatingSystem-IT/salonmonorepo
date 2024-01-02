@@ -69,7 +69,13 @@ const headerSchema = {
             type: "slug",
             
 
-        }
+        },
+        
+          
+
+          
+
+
         
     ]
 }
